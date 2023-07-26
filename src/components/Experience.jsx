@@ -60,7 +60,7 @@ const Experience = () => {
         {" "}
         {/* Tambahkan ID pada bagian ini */}
         <p className={`${styles.sectionSubText} text-center`}>
-          Pengalaman yang saya dapatkan
+          What I have done so far
         </p>
         <h2 className={`${styles.sectionHeadText} text-center`}>
           Work Experience.

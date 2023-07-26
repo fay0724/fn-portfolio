@@ -52,7 +52,6 @@ const About = () => {
           untuk terus mengembangkan diri dan memberikan kontribusi pada
           proyek-proyek menarik berikutnya.
           <br /> Ayo terhubung dan jelajahi bagaimana kita bisa bekerja sama.
-          <br /> Terima kasih banyak!
         </p>
 
         <Tilt className="xs:w-[350px] xs:h-[350px] w-full h-full m-auto max-[1000px]:my-14">

@@ -17,8 +17,6 @@ import {
   git,
   figma,
   threejs,
-  geekbrains,
-  ilalex,
   nextjsLogo,
   expo,
   project1,

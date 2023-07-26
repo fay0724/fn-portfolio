@@ -26,6 +26,7 @@ const Contact = () => {
       "co.id",
       "hotmail.com",
       "outlook.com",
+      "gdrive-id.com",
     ];
 
     // Ekspresi reguler untuk memeriksa apakah email sesuai dengan domain yang diperbolehkan
@@ -95,9 +96,9 @@ const Contact = () => {
         "template_of4y0w8",
         {
           from_name: form.name,
-          to_name: "Ilya Aleksin",
+          to_name: "Fayzil Napu",
           from_email: form.email,
-          to_email: "aleksin095@gmail.com",
+          to_email: "fayzil.napu@gmail.com",
           message: form.message,
         },
         "ESvoA7ckNCg_EWegq"
@@ -159,7 +160,7 @@ const Contact = () => {
               name="name"
               value={form.name}
               onChange={handleChange}
-              placeholder="Silahkan masukkan nama Anda"
+              placeholder="masukkan nama Anda"
               className={`${
                 errMsg && !form.name.trim() ? "input-error" : ""
               } bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium`}
@@ -177,7 +178,7 @@ const Contact = () => {
               name="email"
               value={form.email}
               onChange={handleChange}
-              placeholder="Masukkan email Anda"
+              placeholder="masukkan email Anda"
               className={`${
                 errMsg && (!form.email.trim() || !emailValidation(form.email))
                   ? "input-error"
@@ -199,7 +200,7 @@ const Contact = () => {
               name="message"
               value={form.message}
               onChange={handleChange}
-              placeholder="Silahkan tinggalkan pesan"
+              placeholder="tinggalkan pesan"
               className={`${
                 errMsg && !form.message.trim() ? "input-error" : ""
               } bg-tertiary py-4 px-6 placeholder:text-secondary text-white rounded-lg outline-none border-none font-medium resize-none`}

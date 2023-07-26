@@ -35,7 +35,7 @@ const Navbar = () => {
     >
       <div className="w-full flex justify-between items-center max-w-7xl mx-auto">
         <Link
-          to="home"
+          to="/"
           className="flex items-center gap-2"
           onClick={() => {
             setActive("");
@@ -45,7 +45,7 @@ const Navbar = () => {
           <img
             src={logo}
             alt="logo"
-            className="ml-[30px] h-14 object-contain"
+            className="ml-[90px] h-14 object-contain"
           />
           <p className="text-white text-[21px] font-bold cursor-pointer flex pl-[10px]">
             <span className="sm:block hidden">| Fayzil Firmansyah Napu</span>
