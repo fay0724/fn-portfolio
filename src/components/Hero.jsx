@@ -18,7 +18,7 @@ const Home = () => {
   return (
     <section
       id="home"
-      className="w-full h-screen mx-auto md:-mt-[66px] xs:min-h-max"
+      className="w-full h-screen mx-auto md:-mt-[66px] xs:max-h-screen"
     >
       <div
         className={`${styles.paddingX} h-screen max-w-7xl mx-auto flex lg:flex-row flex-col-reverse items-center justify-center gap-5 pt-10`}
@@ -62,8 +62,8 @@ const Home = () => {
         </div>
 
         <div className="w-full">
-          <div className="flex items-center justify-center lg:w-96 lg:h-96 w-[12.5rem] h-[12.5rem] max-[350px]:w-[10.5rem] max-[350px]:h-[10.5rem] mx-auto bg-gradient-to-b from-blue-800 via-purple-700 to-red-700 hero-animation will-change-transform md:w-[21rem] md:h-[21rem]">
-            <div className="bg-avatar bg-cover bg-no-repeat bg-[50%]  justify-self-center lg:w-[374px] lg:h-[374px] w-48 h-48 max-[350px]:w-40 max-[350px]:h-40 hero-animation will-change-transform md:bg-[70%] md:w-[20rem] md:h-[20rem]" />
+          <div className="flex items-center justify-center lg:w-96 lg:h-96 w-[17.5rem] h-[17.5rem] max-[350px]:w-[10.5rem] max-[350px]:h-[10.5rem] mx-auto bg-gradient-to-b from-blue-800 via-purple-700 to-red-700 hero-animation will-change-transform md:w-[23rem] md:h-[23rem]">
+            <div className="bg-avatar bg-cover bg-no-repeat bg-[50%] mx-auto justify-self-center lg:w-[374px] lg:h-[374px] w-[17rem] h-[17rem] max-[350px]:w-40 max-[350px]:h-40 hero-animation will-change-transform md:bg-[85%] md:w-[22rem] md:h-[22rem]" />
           </div>
         </div>
       </div>

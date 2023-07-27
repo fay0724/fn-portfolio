@@ -42,13 +42,19 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img src={logo} alt="logo" className="h-14 object-contain" />
-          <p className="text-white text-[21px] font-bold cursor-pointer flex pl-[10px]">
-            <span className="sm:block hidden">| Fayzil Firmansyah Napu</span>
+          <img
+            src={logo}
+            alt="logo"
+            className="h-14 object-contain lg:-ml-[2rem]"
+          />
+          <p className="text-white text-[21px] lg:text-[18px] font-bold cursor-pointer flex pl-[10px]">
+            <span className="sm:block hidden lg:text-[13px]">
+              | Fayzil Firmansyah Napu
+            </span>
           </p>
         </Link>
 
-        <ul className="list-none hidden min-[900px]:flex flex-row gap-10">
+        <ul className="list-none hidden min-[900px]:flex flex-row gap-10 lg:gap-7">
           {navLinks.map((link) => (
             <li
               key={link.id}
