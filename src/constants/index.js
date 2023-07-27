@@ -521,6 +521,6 @@ const projects = [
       "https://github.com/jean-louis1776/natural-forest-parallax-nextjs",
     demo_link: "https://natural-forest-parallax.vercel.app/",
   },
-]
+] 
 
 export { services, technologies, experiences, myWords, projects }

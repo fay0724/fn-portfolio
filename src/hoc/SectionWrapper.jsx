@@ -14,7 +14,7 @@ const StarWrapper = (Component, idName) =>
 
         <Component />
       </section>
-    )
+    );
   }
 
 export default StarWrapper

@@ -42,11 +42,7 @@ const Navbar = () => {
             window.scrollTo(0, 0);
           }}
         >
-          <img
-            src={logo}
-            alt="logo"
-            className="ml-[90px] h-14 object-contain"
-          />
+          <img src={logo} alt="logo" className="h-14 object-contain" />
           <p className="text-white text-[21px] font-bold cursor-pointer flex pl-[10px]">
             <span className="sm:block hidden">| Fayzil Firmansyah Napu</span>
           </p>

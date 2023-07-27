@@ -9,6 +9,7 @@ import CV from "./CV"
 import Contact from "./Contact"
 import Footer from "./Footer"
 
+
 export {
   Hero,
   Navbar,

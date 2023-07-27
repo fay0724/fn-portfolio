@@ -16,19 +16,24 @@ const Home = () => {
   });
 
   return (
-    <section id="home" className="w-full h-screen mx-auto">
+    <section
+      id="home"
+      className="w-full h-screen mx-auto md:-mt-[66px] xs:min-h-max"
+    >
       <div
         className={`${styles.paddingX} h-screen max-w-7xl mx-auto flex lg:flex-row flex-col-reverse items-center justify-center gap-5 pt-10`}
       >
         <div>
-          <div className="flex gap-3 select-none">
+          <div className="flex gap-3 select-none md:h-[18rem]">
             <div className="flex flex-col justify-center items-center mt-5">
               <div className="w-5 h-5 rounded-full bg-[#915eff]"></div>
               <div className="w-1 sm:h-80 h-40 violet-gradient"></div>
             </div>
 
-            <div className="lg:w-[32rem]">
-              <h1 className={`${styles.heroHeadText} text-white`}>
+            <div className="lg:w-[32rem] md:w-[30rem] sm:w-full w-[17rem]">
+              <h1
+                className={`${styles.heroHeadText} text-white text-4xl xs:text-3xl`}
+              >
                 Hi, I'm <br />
                 <span className="animate-text bg-gradient-to-r from-teal-500 via-purple-500 to-orange-500 bg-clip-text text-transparent font-black">
                   Fayzil Napu
@@ -36,7 +41,7 @@ const Home = () => {
               </h1>
 
               <p
-                className={`${styles.heroSubText} mt-2 text-white-100 max-w-lg`}
+                className={`${styles.heroSubText} mt-2 text-white-100 max-w-lg text-lg xs:text-base`}
               >
                 {text}
                 <Cursor cursorColor="#915eff" />
@@ -57,8 +62,8 @@ const Home = () => {
         </div>
 
         <div className="w-full">
-          <div className="flex items-center justify-center lg:w-96 lg:h-96 w-[12.5rem] h-[12.5rem] max-[350px]:w-[10.5rem] max-[350px]:h-[10.5rem] mx-auto bg-gradient-to-b from-blue-800 via-purple-700 to-red-700 hero-animation will-change-transform shadow-card">
-            <div className="bg-avatar bg-cover bg-no-repeat bg-[50%]  justify-self-center lg:w-[374px] lg:h-[374px] w-48 h-48 max-[350px]:w-40 max-[350px]:h-40 hero-animation will-change-transform" />
+          <div className="flex items-center justify-center lg:w-96 lg:h-96 w-[12.5rem] h-[12.5rem] max-[350px]:w-[10.5rem] max-[350px]:h-[10.5rem] mx-auto bg-gradient-to-b from-blue-800 via-purple-700 to-red-700 hero-animation will-change-transform md:w-[21rem] md:h-[21rem]">
+            <div className="bg-avatar bg-cover bg-no-repeat bg-[50%]  justify-self-center lg:w-[374px] lg:h-[374px] w-48 h-48 max-[350px]:w-40 max-[350px]:h-40 hero-animation will-change-transform md:bg-[70%] md:w-[20rem] md:h-[20rem]" />
           </div>
         </div>
       </div>

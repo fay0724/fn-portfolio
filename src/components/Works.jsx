@@ -12,7 +12,6 @@ import {
   myFacebook,
   myTwitter,
 } from "../constants";
-import { fadeIn, textVariant } from "../utils/motion";
 
 const ProjectCard = ({
   name,
@@ -70,7 +69,7 @@ const ProjectCard = ({
     </Tilt>
   );
 };
-
+ 
 const LogoLink = ({ logo, link }) => {
   return (
     <motion.div
