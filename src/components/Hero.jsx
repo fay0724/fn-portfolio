@@ -7,9 +7,8 @@ import { SectionWrapper } from "../hoc";
 const Home = () => {
   const [text, count] = useTypewriter({
     words: [
-      "A Junior Front-End Developer",
-      "Experienced in Marketing",
-      "and a Freelancer",
+      "Front-End Developer",
+      "and Freelancer",
     ],
     loop: true,
     delaySpeed: 700,
